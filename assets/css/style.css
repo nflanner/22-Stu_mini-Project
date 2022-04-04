@@ -1,7 +1,8 @@
 /* Universal Selector */
 * {
   margin:0;
-  padding:0;  
+  padding:0;
+  background-color:  grey;
 }
 
 /* Element Selectors */
@@ -9,13 +10,14 @@ body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #FDF8F5;
-  color: #4F4846;
+  background-color: grey;
+  color: #ffffff;
 }
 
 h1,
 h2 {
   margin: 20px;
+  background-color:  grey;
 }
 
 main {
@@ -38,24 +40,25 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: #266150;
+  background-color:  #000317 !important;
+  color: #b5b5b5;
 }
 
 header {
   position: fixed;
-  border-bottom: 10px solid #DDAF94;
 }
 
 footer {
   position: absolute;
   margin-top: 0;
   bottom: 0;
-  border-bottom: 10px solid #4F4846;
+  border-bottom: 10px solid  grey;
   color: #FDF8F5;    
 }
 
 figure {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  background-color:  grey;
 }
 
 img {
@@ -66,8 +69,8 @@ img {
 section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
-  border-top: 3px solid #DDAF94;
-  background-color:  #E8CEBF;
+  border-top: 3px solid  grey;
+  background-color:  grey;
 }
 
 form {
@@ -75,7 +78,7 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid #DDAF94;
+  border: 5px solid  grey;
   border-radius: 20px;
 }
 
@@ -88,7 +91,8 @@ input,
 textarea {
   box-sizing: border-box;
   width: 300px;
-  border: 1px solid #4F4846;
+  border: 1px solid  #000317;
+  
 }
 
 textarea {
@@ -99,7 +103,7 @@ textarea {
 button {
   height: 40px;
   width: 120px;
-  background-color: #4F4846;
+  background-color:  #000317;
   color: #FDF8F5;
 }
  
@@ -110,4 +114,14 @@ button {
 
 .text-right {
   text-align: right;
+}
+
+#body, 
+#contact {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  border-style: groove;
+  border-color: #000317;
+  margin: auto;
 }
